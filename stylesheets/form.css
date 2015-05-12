@@ -1,0 +1,91 @@
+* {
+  font-family: Roboto;
+}
+body {
+  margin: 0;
+  background-color: rgba(91, 163, 214, 1);
+  font-size: 62.5%;
+  width: 1080px;
+}
+textarea {
+  resize: none;
+  color: rgba(49, 115, 161, 1);
+}
+.container {
+  float: left;
+  margin-left: 20px;
+  width: 305px;
+  height: 1000px;
+}
+.for {
+  font-size: 1.5em;
+  color: white;
+  height: 60px;
+  width: 300px;
+  text-align: left;
+  /* border: 1px solid white; */
+  margin-top: 30px;
+  margin-right: 15px;
+  display: block;
+}
+.form {
+  height: 35px;
+  margin-top: 5px;
+  width: 100%;
+  border: 3px solid white;
+  background-color: rgba(91, 163, 214, 1);
+  color: white;
+  font-size: 1.3em;
+  line-height: 35px;
+}
+.text {
+  color: rgba(49, 115, 161, 1);
+  font-style: italic;
+  font-size: 1.2em;
+}
+.form:active {
+  border: 3px solid rgba(49, 115, 161, 1);
+  color: rgba(49, 115, 161, 1);
+}
+.form:hover {
+  border: 3px solid rgba(49, 115, 161, 1);
+}
+textarea:hover {
+  border: 3px solid rgba(49, 115, 161, 1);
+  color: rgba(49, 115, 161, 1);
+}
+placeholder:active:after {
+  border: 3px solid rgba(49, 115, 161, 1);
+}
+select {
+  border-radius: 5px;
+  border: 1px solid silver;
+  font-size: .7em;
+  background-color: rgba(91, 163, 214, 1);
+  margin-left: 5px;
+  line-height: 35px;
+  width: 100%;
+  color: white;
+  height: 30px;
+}
+.drop {
+  width: 100%;
+  border: 0;
+}
+.drop:hover {
+  border: 0;
+}
+.fa-sort {
+  float: right;
+  color: white;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.box {
+  height: 150px;
+  background-color: rgba(91, 163, 214, 1);
+  color: rgba(49, 115, 161, 1);
+}
+.occu {
+  margin-top: 150px;
+}

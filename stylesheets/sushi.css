@@ -1,0 +1,99 @@
+body {
+  font-size: 62.5%
+}
+/*To make 1em equal to 10px*/
+body {
+  margin: 0;
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+.container {
+  height: 450px;
+  width: 30%;
+  float: left;
+  margin-left: 20px;
+  background-color: white;
+  display: block;
+}
+.image {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -20px;
+}
+.one {
+  background-image: url();
+}
+.two {
+  background-image: url();
+}
+.three {
+  background-image: url();
+}
+.contain {
+  height: 250px;
+  width: 100%;
+}
+.header {
+  line-height: 2em;
+  font-size: 2em;
+  margin-left: 1%;
+  color: rgba(71, 163, 218, 1);
+}
+.paragraph {
+  margin-top: 15px;
+  font-size: 1.3em;
+  color: rgba(71, 163, 218, 1);
+  margin-left: 1%;
+}
+
+@media (max-width:840px) and (min-width:500px) {
+  .body {
+    display: block;
+  }
+  .container {
+    height: 225px;
+    width: 90%;
+    margin-left: 5%;
+    background-color: white;
+    display: block;
+  }
+  .image {
+    width: 50%;
+    float: left;
+    margin-right: 5%;
+  }
+  .contain {
+    width: 45%;
+    float: left;
+    display: block;
+  }
+
+}
+
+@media (max-width: 499px) {
+  .container {
+    height: 500px;
+    width: 100%;
+    margin-left: 1%;
+    display: block;
+  }
+  .image {
+    width: 100%;
+    margin-left: 3%;
+  }
+  .contain {
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .header {
+    font-size: 3em;
+    text-align: center;
+  }
+  .paragraph {
+    font-size: 2em;
+  }
+}
